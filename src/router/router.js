@@ -13,6 +13,7 @@ import {
 const Routerl = () => {
     return (
         <Routes>
+            <Route path='/*' element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Resgister />} />
@@ -34,7 +35,7 @@ const Routerl = () => {
             <Route path="/mentorreqapp" element={<MentoringRequest />} />
             <Route path="/external" element={<Profile />} />
             <Route path='/edituser' element={<UpdateProfile />} />
-            <Route path='/*' element={<Home />} />
+            
         </Routes>
     )
 }
