@@ -13,14 +13,14 @@ import {
 const Routerl = () => {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/Mentors" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Resgister />} />
             <Route path='/resetpassword' element={<ResetPassword />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/Profiles" element={<Wizard />} />
 
-            <Route path='/mentorsers' element={<Selectlist />}>
+            <Route path='' element={<Selectlist />}>
                 <Route path='/mentor' element={<SearchMentor />} />
                 <Route path='/mentee' element={<SearchMentee />} />
                 <Route path='/opp' element={<Opportunities />} />
