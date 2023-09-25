@@ -34,7 +34,7 @@ const Routerl = () => {
             <Route path="/mentorreqapp" element={<MentoringRequest />} />
             <Route path="/external" element={<Profile />} />
             <Route path='/edituser' element={<UpdateProfile />} />
-            <Route path='/*' element={<NotFound />} />
+            
         </Routes>
     )
 }
