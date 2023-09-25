@@ -20,7 +20,7 @@ const Routerl = () => {
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/Profiles" element={<Wizard />} />
 
-            <Route path='' element={<Selectlist />}>
+            <Route path='/mentorsers' element={<Selectlist />}>
                 <Route path='/mentor' element={<SearchMentor />} />
                 <Route path='/mentee' element={<SearchMentee />} />
                 <Route path='/opp' element={<Opportunities />} />
